@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fidiscanner-app
+    env: docker
+    buildCommand: "docker build -t fidiscanner-app ."
+    startCommand: "docker run -p 5000:5000 fidiscanner-app"
+    plan: free
+    regions:
+      - oregon

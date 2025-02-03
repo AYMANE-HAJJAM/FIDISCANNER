@@ -1,0 +1,14 @@
+Flask>=2.2.5
+gunicorn>=20.1.0
+twilio>=8.8.0
+google-auth>=2.23.4
+google-auth-oauthlib>=1.0.0
+gspread>=5.7.2
+qrcode>=7.4.2
+Pillow>=10.1.0
+cloudinary>=1.36.0
+requests>=2.31.0
+python-dateutil>=2.8.2
+pytz>=2023.3
+werkzeug>=2.3.8
+mysql-connector-python>=8.0.33
